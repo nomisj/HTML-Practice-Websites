@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Final Project</title>
+</head>
+<body>
+    <h1>Welcome to this practice website!</h1>
+    <h3>I hope you are having a good day.</h3>
+    <p><img src="ocean.jpeg" alt="ocean" width="345px" height="200px"></p>
+    <p>Before you go, why dont you take a look at the <b><u>Google Search Engine?</u></b></p>
+    <p><a href="https://www.google.com/" target="blank">Click here to go to Google.</a></p>
+
+    <p>Here is a list of our <b>services:</b></p>
+    <ul>
+        <li>HTML Development</li>
+        <li>Web Development</li>
+        <li>Web Development Courses</li>
+    </ul>
+
+    <p>Here is a list of our pricing:</p>
+    <table border="1" width="150px" height="150px">
+        <thead>
+            <tr>
+                <td>Course</td>
+                <td>Skill Level</td>
+                <td>Price</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML Course</td>
+                <td>Beginner</td>
+                <td>$100.00</td>
+            </tr>
+            <tr>
+                <td>CSS Course</td>
+                <td>Intermediate</td>
+                <td>$150.00</td>
+            </tr>
+            <tr>
+                <td>JS Course</td>
+                <td>Expert</td>
+                <td>$500.00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Willing to join our courses? Complete the form below!</h2>
+
+    <form>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email" required>
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" placeholder="Enter Password" required>
+        </p>
+        <p>
+            <label for="skill">Skill Level:</label>
+            <select name="skill" id="skill">
+                <option selected disabled value="0">Skill Level</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+        </p>
+
+        <p><b>Do you desire to have a job in Web Development?</b></p>
+        <label>Yes <input type="radio" name="selection" id="yes" value="yes" required></label>
+        <label>No <input type="radio" name="selection" id="no" value="no" required></label>
+
+        <p><input type="submit" name="submit"></p>
+    </form>
+
+</body>
+</html>
